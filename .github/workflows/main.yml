@@ -1,5 +1,4 @@
 name: Simpele_work
-
 on: 
   push:
     branches: 
@@ -8,11 +7,12 @@ jobs:
   job-1:
     runs-on: ubuntu-latest
     steps:
-        - name: print hello
-          run: echo "hello world fron job-1"
+    
+       - name: print hello
+         run: echo "hello world fron job-1"
           
-        - name: sleep
-          run: sleep 3
+       - name: sleep
+         run: sleep 3
           
   job-2:
       runs-on: ubuntu-latest
