@@ -2,7 +2,7 @@ name: Simpele_work
 on: 
   push:
     branches: 
-        - master
+        - main
 jobs:
   job-1:
     runs-on: ubuntu-latest
